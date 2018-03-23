@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+
+/************ Page Accueil **************/
+
+.bouton_session{
+	margin-top: 2%;
+}
+
+.btn input{
+	height: 100%;
+}
+
+.dropdown-button:hover{
+	cursor: pointer;
+}
+
+#ville:hover{
+	cursor: pointer;
+}
+
+.projet:hover{
+	cursor:pointer;
+	zoom:105%;
+}
+
+/************ Page New Projet **************/
+
+.divDragDrop {
+	width: 200px;
+	height: 150px;
+	padding: 10px;
+	border: 1px solid #BDBDBD;
+	background: no-repeat;
+	float: right;
+}
+
+.divDragDrop .divElem{
+	float:right;
+	margin-top: 1%;
+	margin-left: 1%;
+}
+
+.divElem {
+	width: 150px;
+	height: 38px;
+	text-align: center;
+	padding: 0;
+}
+#test-slider{
+	margin-top: 2%;	
+}
+
+.hobbies{
+	border: 1px ridge #BDBDBD;
+}
+
+.hobbies .row{
+	margin-bottom:0;
+}
+
+.hobbies label{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+#divVert {
+	background-image: url("images/vert.png");
+}
+#divOrange {
+	background-image: url("images/orange.png");
+}
+#divRouge {
+	background-image: url("images/rouge.png");
+}
+
+/************ Page Profil **************/
+
+#profil .row{
+	margin-bottom: 0;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+/************ Page Projet **************/
+
+.leger{
+	font-size: small;
+	margin:0;
+}
+
+.carte{
+	margin-left: 6%;	
+}
